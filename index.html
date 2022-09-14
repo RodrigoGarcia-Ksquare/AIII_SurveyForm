@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activity 3 | Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <a href="#">UNIVERSITY OF IMAGINATION</a>
+        </header>
+
+        <main>
+
+            <h1>Enrollment Form</h1>
+            <p>Please fill the form in order to process your enrollment. The information will remain confidential.</p>
+
+        </main>
+
+        <form>
+
+            <!--NAME-->
+            <div class="position">
+                <label for="name">
+                    Full name:
+                </label>
+
+                <input type="text" name="user_name" id="name">
+            </div>
+
+            <!--E-mail-->
+            <div class="position">
+                <label for="e-mail">
+                    E-mail:
+                </label>
+
+                <input type="text" name="user_email" id="e-mail">
+            </div>
+
+            <!--Age-->
+            <div class="position">
+                <label for="age">
+                    Please state your age:
+                </label>
+
+                <input type="number" name="user_age" id="age">
+            </div>  
+
+            <!--Career-->
+            <div class="position">
+                <label for="major">
+                    Which major are you interested to roll in?
+                </label>
+
+                <select name="user_major" id="major">
+                    <option value="softwareEng">Software Engineering</option>
+                    <option value="roboticsEng">Robotics Engineering</option>
+                    <option value="civilEng">Civil Engineering</option>
+
+                </select>
+            </div>
+
+            <!--Check-->
+            <div style="text-align: left;">
+                <label for="check">
+                    Would you like to receive a 2nd survey to gather more information?
+                </label>
+
+                <input type="checkbox" name="user_check" id="check">
+            </div>  
+
+            <!--Feedback-->
+            <div class="position">
+                <label for="feedback">
+                    Please provide any comment or feedback regarding this survey:
+                </label>
+
+                <textarea name="user_feedback" id="feedback" cols="15" rows="10"></textarea>
+            </div>
+
+            <!--Radio Button-->
+            <div class="position">
+                <p>Please, evaluate the survey.</p>
+
+                <label for="dislike">
+                    <input type="radio" name="user_dislike" id="dislike">
+                    Disliked
+                </label>
+    
+                <label for="like">
+                    <input type="radio" name="user_like" id="like">
+                    Liked
+                </label>
+    
+                <label for="enjoyed">
+                    <input type="radio" name="user_enjoyed" id="enjoyed">
+                    Disliked
+                </label>
+
+            </div>
+
+        </form>
+
+        <footer>
+            <div class="footer">
+                <h2>Copyright &copy; 2022 · University of imagination</h2>
+                <p>rh@uniofima.edu.mx  |  (999)-xxxx-xxx  |  Merida, Yucatan</p>
+            </div>
+        </footer>
+        
+    </body>
+
+</html>
