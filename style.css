@@ -11,6 +11,10 @@ header{
     text-align: center;
 }
 
+.center{
+    vertical-align: middle;
+}
+
 header a{
     font-size: 32px;
     text-decoration: none;
@@ -25,6 +29,7 @@ form, main {
     margin: 50px auto;
     padding: 30px 20px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2em;
 }
 
 .position {
